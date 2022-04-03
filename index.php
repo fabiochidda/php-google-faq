@@ -55,11 +55,21 @@ $google_qna = [
     <title>Google QnA</title>
 </head>
 <body>
-    
 
+    <main>
+        <?php
+        foreach ($google_qna as $el) {
+        ?>
+        
+            <div class="container_qna">
+                <?php echo $el['domanda'];?>
+                <?php echo $el['risposta'];?>
+            </div>
 
-
-
+        <?php    
+        }
+        ?>
+    </main>
 
 </body>
 </html>
