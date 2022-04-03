@@ -101,23 +101,27 @@ $google_qna = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Google QnA</title>
 </head>
 <body>
 
     <main>
-        <?php
-        foreach ($google_qna as $el) {
-        ?>
-        
-            <div class="container_qna">
-                <?php echo $el['domanda'];?>
-                <?php echo $el['risposta'];?>
-            </div>
+        <div class="container_qna">
+            <?php
+            foreach ($google_qna as $el) {
+            ?>
+            
+                <div class="qna_box">
+                    <?php echo $el['domanda'];?>
+                    <?php echo $el['risposta'];?>
+                </div>
 
-        <?php    
-        }
-        ?>
+            <?php    
+            }
+            ?>
+        </div>
+        
     </main>
 
 </body>

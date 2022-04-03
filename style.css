@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_qna {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+h1 {
+    padding: 25px 0px;
+}
