@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+ul li {
+    list-style: none;
+}
+
+header {
+    border-bottom: 1px solid grey;
+}
+
 .container_qna {
     width: 1140px;
     margin: 0 auto;
@@ -12,4 +20,27 @@
 
 h1 {
     padding: 25px 0px;
+}
+
+.container_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+figure {
+    width: 90px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.header_links {
+    display: flex;
+    gap: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
 }

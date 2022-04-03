@@ -106,6 +106,22 @@ $google_qna = [
 </head>
 <body>
 
+    <header>
+        <div class="container_header">
+            <figure>
+                <img src="img/google-logo-9834.png" alt="">
+            </figure>
+            <h2>Privacy e termini</h2>
+        </div>
+        <ul class="header_links">
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li>Domande Frequenti</li>
+        </ul>
+    </header>
+
     <main>
         <div class="container_qna">
             <?php
